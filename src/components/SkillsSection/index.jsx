@@ -5,7 +5,7 @@ import { SkillsContainer, SkillsH1, SkillsWrapper, SkillsCard, SkillsIcon, Skill
 const SkillsSection = () => (
   <>
     <SkillsContainer id="skills">
-      <SkillsH1>Skills</SkillsH1>
+      <SkillsH1>Conventional vs Regenerative Farming</SkillsH1>
       <SkillsWrapper>
 
         <SkillsCard>

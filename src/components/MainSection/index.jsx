@@ -13,12 +13,12 @@ const MainSection = () => {
   return (
     <MainContainer id="top">
       <MainBg>
-        <VideoBg autoPlay loop muted src={`${process.env.PUBLIC_FOLDER}/videos/tech.mp4`} type="video/mp4" />
+        <VideoBg autoPlay loop muted src={`${process.env.PUBLIC_FOLDER}/videos/Compost.MOV`} type="video/mp4" />
       </MainBg>
       <MainContent>
-        <MainH1>HI , I&apos;M JAMES</MainH1>
+        <MainH1>HI , I&apos;M JULIAN</MainH1>
         <MainP>
-          Passionate in Website/Mobile App design & development. Love all things gaming.
+          Passionate in WebApp design & development. I love agriculture.
         </MainP>
         <MainBtnWrapper>
           <Button

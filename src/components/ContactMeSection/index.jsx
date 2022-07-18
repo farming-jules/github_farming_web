@@ -12,19 +12,19 @@ const ContactMeSection = () => (
     <div className="d-flex w-100 justify-content-center">
       <section className="mb-4">
 
-        <a id="btn" className="btn btn-outline-light btn-floating m-1" href="https://github.com/wkycode" role="button">
+        <a id="btn" className="btn btn-outline-light btn-floating m-1" href="https://github.com/farming-jules" role="button">
           <FiGithub />
         </a>
 
-        <a id="btn" className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/kayu-james-wu-21767521b" role="button">
+        {/* <a id="btn" className="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/" role="button">
           <FaLinkedin />
-        </a>
+        </a> */}
 
-        <a id="btn" className=" btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/james.wky.5/" role="button">
+        <a id="btn" className=" btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/julian.l.chan/" role="button">
           <FaFacebookF />
         </a>
 
-        <a id="btn" className=" btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/wkyjames/" role="button">
+        <a id="btn" className=" btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/maltie.jules/" role="button">
           <FaInstagram />
         </a>
 
@@ -37,10 +37,10 @@ const ContactMeSection = () => (
 
         <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <h6 id="footer-title" className="text-uppercase fw-bold fs-1 mb-4 text-white">
-            WKY James
+            Julian Chan
           </h6>
           <p className="text-white">
-            Prior to stepping into this industry, I used to be in real-estate and a full-time Twitch & YouTube content creator. Familiar with OBS live streaming software and Video Editing Software (Davinici Resolve).
+            With the most ancient industry on one hand, and the most fore-front on the other. I wish to combine agriculture with technology.
           </p>
         </div>
 
@@ -85,26 +85,26 @@ const ContactMeSection = () => (
             Contact
           </h6>
 
-          <p className="text-white">
+          {/* <p className="text-white">
             <FaHome className="mr-2" />
             Lohas Park, TKO, NT
-          </p>
+          </p> */}
 
           <p>
-            <a href="mailto:misterwky@gmail.com" className="text-white">
+            <a href="mailto:wyk.julian@gmail.com" className="text-white">
               <MdEmail className="mr-2" />
-              misterwky@gmail.com
+              wyk.julian@gmail.com
             </a>
           </p>
 
           <p className="text-white">
             <FaPhoneAlt className="mr-2" />
-            +852 6560 4933
+            +852 6141 4901
           </p>
 
           <p className="text-white">
             <FaWhatsapp className="mr-2" />
-            +852 6560 4933
+            +852 6141 4901
           </p>
         </div>
 

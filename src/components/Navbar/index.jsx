@@ -6,7 +6,7 @@ const Navbar = ({ toggle }) => (
   <>
     <Nav>
       <NavbarContainer>
-        <NavLinksHome to="top">W.James</NavLinksHome>
+        <NavLinksHome to="top">farming-jules</NavLinksHome>
         <MobileIcon onClick={toggle}>
           <FaBars />
         </MobileIcon>

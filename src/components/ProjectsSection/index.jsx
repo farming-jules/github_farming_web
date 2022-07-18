@@ -4,26 +4,36 @@ import { ProjectsContainer, ImageContainer, ProjectsH1 } from './ProjectsSection
 
 const carouselItems = [
   {
-    link: 'https://github.com/wkycode/Project1',
-    image: 'https://i.imgur.com/nDHgGwf.png?2',
-    title: 'Project 1',
-    description: 'Retro-style Game'
+    // src= {`${process.env.PUBLIC_FOLDER}/images/1_Poor_soil.JPG`} alt={alt},
+    image: `${process.env.PUBLIC_FOLDER}/images/1_Poor_soil.JPG`,
+    title: 'Initial Stage',
+    description: 'Soil condition that is poor in breathability and water absorption.'
   }, {
-    link: 'https://github.com/wkycode/Project2',
-    image: 'https://i.imgur.com/qthAC5Z.png?1',
-    title: 'Project 2',
-    description: 'Instagram Clone'
+    image: `${process.env.PUBLIC_FOLDER}/images/2_Recovering_soil.JPG`,
+    title: 'Recovering Stage',
+    description: 'Recovering in soil health with mulching. It takes time to heal.'
   }, {
-    link: 'https://github.com/wkycode/project3',
-    image: 'https://i.imgur.com/iQMnov5.png?1',
-    title: 'Project 3',
-    description: 'Digital Service Website'
+    image: `${process.env.PUBLIC_FOLDER}/images/3_Covered_Soil.JPG`,
+    title: 'Improvement Stage',
+    description: 'Better soil health with compost, compost tea, and cover crops. Higher microbial level in soil.'
   }, {
-    link: 'https://github.com/wkycode/unit-4-mobileApp',
-    image: 'https://i.imgur.com/HXdthRs.png?1',
-    title: 'Project 4',
-    description: 'Youtube Viewer Boosting App'
+    image: `${process.env.PUBLIC_FOLDER}/images/4_Better_Crops.JPG`,
+    title: 'Results',
+    description: 'Soil-food-web is built, resulting in stronger soil defense against bugs and soil-borne diseases without any use of pesticides or other chemical nasties.'
+  }, {
+    image: `${process.env.PUBLIC_FOLDER}/images/5_Compost.JPG`,
+    title: 'Thermal, Aerobic Compost in the making',
+    description: 'My compost standard follows strictly to Elaine Ingham principle. 100% regenerative that helps soil draw CO2 from the atmosphere.'
+  }, {
+    image: `${process.env.PUBLIC_FOLDER}/images/6_MaturingCompost.JPG`,
+    title: 'Compost coming to mature',
+    description: 'Biomass shrinks. The microbes love their new home and produce a lot of heat that can reach >70C.'
+  }, {
+    image: `${process.env.PUBLIC_FOLDER}/images/7_MaturedCompost.JPG`,
+    title: 'Ready to rock!',
+    description: 'Temperature stablised, making it a warm and moist home that is so rich in carbon, humus, and minerals. It is truly the beginning of human civilisation!'
   }
+
 ]
 
 const ProjectsSection = () => {
@@ -35,7 +45,7 @@ const ProjectsSection = () => {
 
   return (
     <ProjectsContainer id="projects">
-      <ProjectsH1>Projects</ProjectsH1>
+      <ProjectsH1>Agricultural Projects</ProjectsH1>
       <div className="container">
         <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
           {
