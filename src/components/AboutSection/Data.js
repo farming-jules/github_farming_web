@@ -1,11 +1,11 @@
 export const homeObjOne = {
   id: 'about',
   topLine: 'About Me',
-  headline: ' Full-stack Developer',
-  description: ' A full stack web developer who can develop both client and server software. In addition to mastering HTML and CSS, I also know how to Program a browser ( using JavaScript, jQuery, React, Next, or React Native) / Program a server (Node).',
+  headline: ' Agronomist ',
+  description: ' A know-how in agriculture. I made the composting video above, I hope you have enjoyed watching it. ',
   buttonLabel: 'Download CV',
   imgStart: false,
-  alt: 'Game',
+  alt: 'Self',
   dark: true,
   primary: true
 }

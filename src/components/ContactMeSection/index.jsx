@@ -43,7 +43,7 @@ const ContactMeSection = () => (
             With the most ancient industry on one hand, and the most fore-front on the other. I wish to combine agriculture with technology.
           </p>
         </div>
-
+        {/*
         <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 id="footer-title" className="text-uppercase fw-bold mb-4 text-white">
             Projects
@@ -60,7 +60,7 @@ const ContactMeSection = () => (
           <p>
             <a href="https://github.com/wkycode/unit-4-mobileApp" className="text-white">Yotube-ViewBoosting App</a>
           </p>
-        </div>
+        </div> */}
 
         <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <h6 id="footer-title" className="text-uppercase fw-bold mb-4 text-white">
@@ -97,10 +97,10 @@ const ContactMeSection = () => (
             </a>
           </p>
 
-          <p className="text-white">
+          {/* <p className="text-white">
             <FaPhoneAlt className="mr-2" />
             +852 6141 4901
-          </p>
+          </p> */}
 
           <p className="text-white">
             <FaWhatsapp className="mr-2" />

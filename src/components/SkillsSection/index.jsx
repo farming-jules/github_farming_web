@@ -5,20 +5,20 @@ import { SkillsContainer, SkillsH1, SkillsWrapper, SkillsCard, SkillsIcon, Skill
 const SkillsSection = () => (
   <>
     <SkillsContainer id="skills">
-      <SkillsH1>Conventional vs Regenerative Farming</SkillsH1>
+      <SkillsH1>Features of Regenerative Farming</SkillsH1>
       <SkillsWrapper>
 
         <SkillsCard>
           <SkillsCardInner>
             <SkillsCardFront>
               <SkillsIcon src={`${process.env.PUBLIC_FOLDER}/images/svg-1.svg`} />
-              <SkillsH2>Video Editing</SkillsH2>
+              <SkillsH2>No Till</SkillsH2>
               <SkillsP>Hover and see more</SkillsP>
             </SkillsCardFront>
             <SkillsCardBack className="d-flex flex-column justify-content-center">
-              <div>OBS</div>
+              <div>Biological Solutions</div>
               <ProgressBar variant="info" now={90} />
-              <div>Davinici Resolve</div>
+              <div>Work with Nature</div>
               <ProgressBar variant="info" now={60} />
             </SkillsCardBack>
           </SkillsCardInner>
@@ -28,19 +28,19 @@ const SkillsSection = () => (
           <SkillsCardInner>
             <SkillsCardFront>
               <SkillsIcon src={`${process.env.PUBLIC_FOLDER}/images/svg-2.svg`} />
-              <SkillsH2>Front-end Development</SkillsH2>
+              <SkillsH2>Composting</SkillsH2>
               <SkillsP>Hover and see more</SkillsP>
             </SkillsCardFront>
             <SkillsCardBack className="d-flex flex-column justify-content-center">
-              <div>HTML</div>
+              <div>Waste Reduction</div>
               <ProgressBar variant="info" now={80} />
-              <div>CSS</div>
+              <div>Green House Gas Reduction</div>
               <ProgressBar variant="info" now={70} />
-              <div>React</div>
+              <div>Better Air and Water</div>
               <ProgressBar variant="info" now={75} />
-              <div>React Native</div>
+              <div>Upcycling resources</div>
               <ProgressBar variant="info" now={70} />
-              <div>Next-Js(Pages)</div>
+              <div>Ecologically Sound</div>
               <ProgressBar variant="info" now={80} />
             </SkillsCardBack>
           </SkillsCardInner>
@@ -50,19 +50,19 @@ const SkillsSection = () => (
           <SkillsCardInner>
             <SkillsCardFront>
               <SkillsIcon src={`${process.env.PUBLIC_FOLDER}/images/svg-3.svg`} />
-              <SkillsH2>Back-end Development</SkillsH2>
+              <SkillsH2>Social Impact</SkillsH2>
               <SkillsP>Hover and see more</SkillsP>
             </SkillsCardFront>
             <SkillsCardBack className="d-flex flex-column justify-content-center">
-              <div>Node-Js</div>
+              <div>Carbon Mileage</div>
               <ProgressBar variant="info" now={65} />
-              <div>Express-Js</div>
+              <div>Higher Food Quality</div>
               <ProgressBar variant="info" now={65} />
-              <div>Next-Js(API)</div>
+              <div>Medical Costs Reduction</div>
               <ProgressBar variant="info" now={80} />
-              <div>PostgreSQL</div>
+              <div>Reliability</div>
               <ProgressBar variant="info" now={70} />
-              <div>Firebase</div>
+              <div>Lower Social Costs</div>
               <ProgressBar variant="info" now={80} />
             </SkillsCardBack>
           </SkillsCardInner>
