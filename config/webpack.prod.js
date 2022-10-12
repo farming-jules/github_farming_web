@@ -57,12 +57,12 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      'process.env.PUBLIC_FOLDER': JSON.stringify('/profile')
+      'process.env.PUBLIC_FOLDER': JSON.stringify('/github_farming_web')
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, '../src/template.html'),
       filename: 'index.html',
-      publicPath: '/profile'
+      publicPath: '/github_farming_web'
     }),
     new MiniCssExtractPlugin({
       filename: 'styles/styles.[hash].css'
