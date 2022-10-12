@@ -11,7 +11,6 @@ export const ContactMeContainer = styled.div`
   @media screen and (max-width: 1100px) {
     height: 800px;
   }
-
   @media screen and (max-width: 750px) {
     height: 1250px;
   }
@@ -22,8 +21,6 @@ export const ContactMeH1 = styled.div`
   color: #fff;
   padding-top:50px;
   padding-bottom: 20px;
-
-
   @media screen and (max-width:480px){
     font-size: 2rem;
     padding-top: 0;
@@ -38,7 +35,7 @@ export const ContactMeWrapper = styled.div`
   align-items: center;
   grid-gap: 16px;
   padding: 0 50px;
-  
+
   @media screen and (max-width: 1050px) {
   grid-template-columns: 1fr;
   }

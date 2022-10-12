@@ -1,4 +1,4 @@
-export const homeObjOne = {
+const homeObjOne = {
   id: 'about',
   topLine: 'About Me',
   headline: ' Agronomist ',
@@ -9,3 +9,5 @@ export const homeObjOne = {
   dark: true,
   primary: true
 }
+
+export default homeObjOne

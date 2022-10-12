@@ -6,7 +6,7 @@ import AboutSection from '../AboutSection'
 import SkillsSection from '../SkillsSection'
 import ProjectsSection from '../ProjectsSection'
 import ContactMeSection from '../ContactMeSection'
-import { homeObjOne } from '../AboutSection/Data'
+import homeObjOne from '../AboutSection/Data'
 
 const Home = () => {
   const [isOpened, setIsOpened] = useState(false)
